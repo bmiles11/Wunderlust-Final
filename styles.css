@@ -235,8 +235,12 @@ h1 {
     background-color: var(--yellow);
 }
 
-#intro {
-    padding: 1.5em .5em;
+#intro-left {
+	padding: 1.5em;
+}
+
+#intro-left h2 {
+	padding: 0em;
 }
 
 .img-grid {
@@ -635,7 +639,7 @@ footer a {
     }
 }
 
-@media (min-width: 1150px) {
+@media (min-width: 1250px) {
     header {
         grid-template-rows: 80px 20px;
         grid-template-columns: 180px .5fr 1fr;
